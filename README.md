@@ -143,11 +143,12 @@ our model based on the`R2` score for the model with those features and also we c
 We got the following values for `R2` score:
 
 Train score(mean):       0.7187064792939413
+
 Validation score(mean):  0.7215312885070686
 
 with the following coefficients.
 
-![](./coefficients)
+![](./coefficients.png)
 
 Note that `price`, `yr_built`, `lat`, and `sqft_living` are converted by using
 a logarithmic function.
