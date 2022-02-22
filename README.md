@@ -92,7 +92,10 @@ Categorical variables we use are:
 * `grade`
 * `zipcode`
 
+
 The scatter plots of these features are:
+
+![](./categorical_scatter.png)
 
 #### Numerical Data
 
@@ -108,7 +111,20 @@ Numerical variables we use are:
 * `lat`
 * `long`
     
-    
+The scatter plots of these features before transformation are:
+![](./scatter_numerical_before.png)   
+
+
+We transform the following features by using logarithmic function
+* `price`
+* `sqft_living`
+* `sqft_lot`
+* `yr_built`
+* `lat`
+* `long`
+
+and we get the following scatter plot and histograms of these features:
+![](./hist_scatter_numerical_after.png)
 
 
 
