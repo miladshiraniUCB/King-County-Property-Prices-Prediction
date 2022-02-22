@@ -134,7 +134,7 @@ For categorical variables with two values, we used `OrdinalEncoder` from `sklear
 and for categorical variables with multiple values, we used `OneHotEncoder` 
 from `sklearn.preprocessing`.
 
-## Preprocessing.
+## Model.
 
 We created different models and among them, we chose the features of 
 our model based on the`R2` score for the model with those features and also we calculated 
@@ -145,7 +145,27 @@ We got the following values for `R2` score:
 Train score(mean):       0.7187064792939413
 Validation score(mean):  0.7215312885070686
 
+with the following coefficients.
 
+	feature             	P-value 	coefficient
+0	bedrooms            	0       	-0.0208
+1	floors              	0       	0.054
+2	5 Fair              	0       	-0.118
+3	7 Average           	0       	0.1789
+4	4 Low               	0.002   	-0.2152
+5	8 Good              	0       	0.3805
+6	sqft_living         	0       	0.4858
+7	waterfront_impute   	0       	0.5539
+8	9 Better            	0       	0.5932
+9	10 Very Good        	0       	0.7328
+10	11 Excellent        	0       	0.8616
+11	12 Luxury           	0       	1.0057
+12	yr_built            	0       	-7.6531
+13	lat                 	0       	62.5216
+14	const               	0       	-174.355
+
+Note that `price`, `yr_built`, `lat`, and `sqft_living` are converted by using
+a logarithmic function.
 
 ## Assumption Checking.
 
