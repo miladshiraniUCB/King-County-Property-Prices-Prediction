@@ -127,5 +127,48 @@ and we get the following scatter plot and histograms of these features:
 ![](./hist_scatter_numerical_after.png)
 
 
+## Converting Categorical to numerical
+
+We used `SciKit-learn` library to convert the categorical to numerical values.
+For categorical variables with two values, we used `OrdinalEncoder` from `sklearn.preprocessing`
+and for categorical variables with multiple values, we used `OneHotEncoder` 
+from `sklearn.preprocessing`.
+
+## Preprocessing.
+
+We created different models and among them, we chose the features of 
+our model based on the`R2` score for the model with those features and also we calculated 
+`variance_inflation_factor` to make sure that we do not have collinearity.
+
+We got the following values for `R2` score:
+
+Train score(mean):       0.7187064792939413
+Validation score(mean):  0.7215312885070686
 
 
+
+## Assumption Checking.
+
+### Normality of Residuals
+![](./normality_residuals.png)
+
+### Multicollinearity (Independence Assumption)
+We check the independence of features by calculating the variance_inflation_factor
+
+### Homoscedasticity
+![](./homo.png)
+
+### Linearity
+![](./linearity.png)
+
+## Summary and Suggestions:
+
+Given that we cannot find a perfect model, each model has its own pros and cons. The model we proposed try to predict the price of a property in King County, WA by using `bedrooms`, `sqft_living`, `floors`, `yr_built`, `lat` as numerical features and `grade` of a house and its view toward a waterfall as the categorical value. This model has a mean of the cross validation score of `0.722`. 
+
+We realized that `lat` has the highest coefficient with respect to other numerical features which means that this feature might have the highest impact on the price of a property. Since the latitude and longitude of a property represent the coordinate of the property on the earth, these columns contain the information about the location and zip code of the property. Therefore, it makes sense that `lat` should have a highest coefficient among others since it represents to location of a property. After `lat` , `sqft_living` has the second highest impact on the price of a property.
+
+Among the categorical variables, we realize that improving the grade of a property to *Luxury* will increase the price of the property since this feature has the highest coefficient among other categorical variable. Therefore, we strongly suggest to improve the grade of a property because in turn the price of the house will increase greatly. 
+
+Since one can not change the location or square footage of the living room by that much, it makes sense to increase the grade of the property. By doing so, the owner may be able to sell the property with a higher price. 
+
+It is important to mention that we would get different results by considering different features in the model. For example, we could add additional features such as `'sqft_basement` and `yr_renovated` to find a different model. Choosing different features will give different models and in turn different predictions. 
