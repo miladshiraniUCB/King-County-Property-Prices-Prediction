@@ -8,7 +8,9 @@
 
 ## Project Overview
 
-In this note, we are trying to help homeowners to buy or sell homes by predicting the price of the property in **King County, WA**. We will give them some suggestions how they could increase the value of the property and what are the main features that have th highest influence on the price of the property. To answer their questions, we use some available data from the housing prices in this county to present a model to predict the price of a house. 
+**King County in Washington** State has decided to help newly married couples to find a property in this county and the county wants to find a way to estimate the value of a property and wants to know two ways that can help them to increase the value of a property. They asked a data scientist to find a model to predict the price of a property and two suggestions to increase the value of a property.
+
+Therefore, in this note, we are trying to help homeowners to buy or sell homes by predicting the price of the property in King County, WA. We will give them some suggestions how they could increase the value of the property and what are the main features that have th highest influence on the price of the property. To answer their questions, we use some available data from the housing prices in this county to present a model to predict the price of a house. 
 
 In order to do so, we use regression methods to find an appropriate model to fit housing price data so that we can predict the price of different houses with different features. 
 
@@ -68,6 +70,8 @@ This notebook is organized as follows:
 
 
 **11. Summary and Suggestions.** In this section we discuss the model and we will we will give some suggestions as an answer to our business question.
+
+**12. Next Steps.** In this section we suggest how we may be able to improve the accuracy of our model.
 
 
 
