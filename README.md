@@ -179,6 +179,21 @@ We realized that `lat` has the highest coefficient with respect to other numeric
 
 Among the categorical variables, we realize that improving the grade of a property to *Luxury* will increase the price of the property since this feature has the highest coefficient among other categorical variable. Therefore, we strongly suggest to improve the grade of a property because in turn the price of the house will increase greatly. 
 
-Since one can not change the location or square footage of the living room by that much, it makes sense to increase the grade of the property. By doing so, the owner may be able to sell the property with a higher price. 
+Since one can not change the location of a property, it makes sense to increase the grade of the property. Therefore, we strongly suggest to improve the grade of a property because in turn the price of the house will increase greatly. 
 
-It is important to mention that we would get different results by considering different features in the model. For example, we could add additional features such as `'sqft_basement` and `yr_renovated` to find a different model. Choosing different features will give different models and in turn different predictions. 
+In summary in order for King County to increase the value of a property, we would suggest the following ways:
+
+**1. Increase the square footage of living area by reducing the number of bedrooms.**
+
+**2. Increase the grade of the property at lease to very good.**
+
+
+## Next Steps
+
+It is important to mention that we would get different results by considering different features in the model. Therefore, we would suggests next steps to improve the predictions
+
+**1. Adding other features such as `sqft_basement` and `yr_renovated` to the model.**
+
+**2. Adding some combination of features into the model.**
+
+**3. Considering adding polynomial features to the model.**
