@@ -97,9 +97,6 @@ Categorical variables we use are:
 * `zipcode`
 
 
-The scatter plots of these features are:
-
-![](./categorical_scatter.png)
 
 #### Numerical Data
 
@@ -115,9 +112,6 @@ Numerical variables we use are:
 * `lat`
 * `long`
     
-The scatter plots of these features before transformation are:
-![](./scatter_numerical_before.png)   
-
 
 We transform the following features by using logarithmic function
 * `price`
@@ -126,9 +120,6 @@ We transform the following features by using logarithmic function
 * `yr_built`
 * `lat`
 * `long`
-
-and we get the following scatter plot and histograms of these features:
-![](./hist_scatter_numerical_after.png)
 
 
 ## Converting Categorical to numerical
@@ -149,13 +140,6 @@ We got the following values for `R2` score:
 Train score(mean):       0.7187064792939413
 
 Validation score(mean):  0.7215312885070686
-
-with the following coefficients.
-
-![](./coefficients.png)
-
-Note that `price`, `yr_built`, `lat`, and `sqft_living` are converted by using
-a logarithmic function.
 
 ## Assumption Checking.
 
