@@ -8,11 +8,7 @@
 
 ## Project Overview
 
-**King County in Washington** State has decided to help newly married couples to find a property in this county and the county wants to find a way to estimate the value of a property and wants to know two ways that can help them to increase the value of a property. They asked a data scientist to find a model to predict the price of a property and two suggestions to increase the value of a property.
-
-Therefore, in this note, we are trying to help homeowners to buy or sell homes by predicting the price of the property in King County, WA. We will give them some suggestions how they could increase the value of the property and what are the main features that have th highest influence on the price of the property. To answer their questions, we use some available data from the housing prices in this county to present a model to predict the price of a house. 
-
-In order to do so, we use regression methods to find an appropriate model to fit housing price data so that we can predict the price of different houses with different features. 
+In this project, we will use the data on housing price in **King County in Washington** to analyze and to estimate the value of a property and we want to find out the features that have the highest influences on the price of a property and we want to find two ways to increase the value of a property. To do so, we use some available data from the housing prices in this county to present a model to predict the price of a house. We will use regression methods to find an appropriate model to fit housing price data so that we can predict the price of different houses with different features. 
 
 
 This notebook is organized as follows:
@@ -165,7 +161,7 @@ Among the categorical variables, we realize that improving the grade of a proper
 
 Since one can not change the location of a property, it makes sense to increase the grade of the property. Therefore, we strongly suggest to improve the grade of a property because in turn the price of the house will increase greatly. 
 
-In summary in order for King County to increase the value of a property, we would suggest the following ways:
+In summary in order to increase the value of a property, we would suggest the following ways:
 
 **1. Increase the square footage of living area by reducing the number of bedrooms.**
 
