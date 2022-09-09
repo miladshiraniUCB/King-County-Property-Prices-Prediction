@@ -177,3 +177,13 @@ It is important to mention that we would get different results by considering di
 **2. Adding some combination of features into the model.**
 
 **3. Considering adding polynomial features to the model.**
+
+## Repository Structure
+```
+├── Images: Images for README
+├── Notebook: Modeling Notebooks
+├── PDFs: PDF files of the notebooks and Presentation
+├── Project-Presentation-LaTeX-Files: LaTeX files of the presentation
+├── Data : data used for modeling
+├── README.md : project information and repository structure
+```
