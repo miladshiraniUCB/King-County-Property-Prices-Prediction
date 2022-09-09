@@ -140,16 +140,16 @@ Validation score(mean):  0.7215312885070686
 ## Assumption Checking.
 
 ### Normality of Residuals
-![](./normality_residuals.png)
+![](./Images/normality_residuals.png)
 
 ### Multicollinearity (Independence Assumption)
 We check the independence of features by calculating the variance_inflation_factor
 
 ### Homoscedasticity
-![](./homo.png)
+![](./Images/homo.png)
 
 ### Linearity
-![](./linearity.png)
+![](./Images/linearity.png)
 
 ## Summary and Suggestions:
 
