@@ -1,4 +1,6 @@
-# Phase 2 Project Description
+# Property Evaluation in King County, WA
+
+![](./Images/cover.jpeg)
 
 
 * Project Overview: the project goal, audience, and dataset
